@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script src="menu.js"></script>
+    <style>
+      #one {
+        background-color: red;
+        width: 30%;
+        height: 80%;
+        margin-left: 10%;
+        float: left;
+      }
+      #two {
+        background-color: blue;
+        width: 30%;
+        height: 80%;
+        margin-right: 10%;
+        float: right;
+      }
+      h1 {
+        text-align:center;
+      }
+      p {
+        margin-left: 5%;
+        color: black;
+        font-size: 150%;
+      }
+      button {
+        margin-left: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id=mainTitle>Burger Menu</h1>
+    <div id=one><h1 id=oneTitle></h1><hr><p id=oneMeat></p><p id=oneVeg></p><p id=oneSauce></p><button onclick="onePrice()">Price $</button><h1 id=oneTotal></h1></div>
+    <div id=two><h1 id=twoTitle></h1><hr><p id=twoMeat></p><p id=twoVeg></p><p id=twoSauce></p><button onclick="twoPrice()">Price $</button><h1 id=twoTotal></h1></div>
+    <script src="menu.js"></script>
+  </body>
+</html>

@@ -18,12 +18,14 @@ var tax = 1.04712;
 
 document.getElementById('oneTitle').innerHTML = spicy.name;
 document.getElementById('oneMeat').innerHTML = "Meat type: " + spicy.meat;
-document.getElementById('oneVeg').innerHTML = "The vegetables will be: " + spicy.veg;
-document.getElementById('oneSauce').innerHTML = "The sauces will be: " +  spicy.sauce;
+document.getElementById('oneVeg').innerHTML = "Vegetables: " + spicy.veg;
+document.getElementById('oneSauce').innerHTML = "Sauces: " +  spicy.sauce;
+document.getElementById('onePrice').innerHTML = "Price: $" +  spicy.price;
 document.getElementById('twoTitle').innerHTML = mild.name;
 document.getElementById('twoMeat').innerHTML = "Meat type: " + mild.meat;
-document.getElementById('twoVeg').innerHTML = "The vegetables will be: " + mild.veg;
-document.getElementById('twoSauce').innerHTML = "The sauces will be: " +  mild.sauce;
+document.getElementById('twoVeg').innerHTML = "Vegetables: " + mild.veg;
+document.getElementById('twoSauce').innerHTML = "Sauces: " +  mild.sauce;
+document.getElementById('twoPrice').innerHTML = "Price: $" +  mild.price;
 
 function onePrice() {
   var onetotal = spicy.price * tax;
